@@ -1,0 +1,12 @@
+clip @ git+https://github.com/openai/CLIP.git@a1d071733d7111c9c014f024669f959182114e33
+einops==0.8.0
+opencv-python==4.9.0.80
+pillow==10.3.0
+pytorchcv==0.0.67
+timm==0.8.13.dev0
+torch==1.13.1+cu116
+torchaudio==0.13.1+cu116
+torchmetrics==1.4.0.post0
+torchvision==0.14.1+cu116
+tqdm==4.66.4
+
