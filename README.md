@@ -1,5 +1,7 @@
 # AGMixer: Age Estimation Using Gender Feature and Improved Ordinal Loss
 
+![AGMixer](images/AGMixer.svg)
+
 ## Paper
 
 Age estimation can be applied practically with different media and devices across diverse fields. Since the aging process exhibits individual variation and men and women age at different rates, most datasets include both age and gender labels. In this thesis, we propose AGMixer, which leverages gender information to reduce age estimation errors.
