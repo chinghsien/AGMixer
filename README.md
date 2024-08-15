@@ -70,4 +70,4 @@ TBA
 
 ## Acknowledgement
 
-Thanks to [MWR](https://github.com/nhshin-mcl/MWR?tab=readme-ov-file), [Unified Benchmark](https://github.com/paplhjak/Facial-Age-Estimation-Benchmark), [MLP-Mixer-pytorch](https://github.com/paplhjak/Facial-Age-Estimation-Benchmark), [MLP-Mixer](https://github.com/google-research/vision_transformer?tab=readme-ov-file#mlp-mixer) for releasing their source code.
+Thanks to [MWR](https://github.com/nhshin-mcl/MWR?tab=readme-ov-file), [Unified Benchmark](https://github.com/paplhjak/Facial-Age-Estimation-Benchmark), [MLP-Mixer-pytorch](https://github.com/paplhjak/Facial-Age-Estimation-Benchmark), [MLP-Mixer](https://github.com/google-research/vision_transformer?tab=readme-ov-file#mlp-mixer), [FaRL](https://github.com/FacePerceiver/FaRL) for releasing their source code.
