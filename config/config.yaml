@@ -1,0 +1,38 @@
+training:
+  seed: 42
+  batch_size: 32
+  num_epochs: 50
+  learning_rate: 1e-4
+  lr_farl: 5e-5
+  lr_AGM: 5e-4
+  lr_decay_rate: 0.015
+  early_stop: 10
+  dataset: 
+    name: utk
+    data_path: /mnt/d/chinghsien/Downloads/NTU_Thesis_Code_backup/Datasets/UTKface_inthewild/
+    annotation_path: /mnt/d/chinghsien/Documents/NTU/Master_Thesis/AGMixer/annotations/UTKFace_aligned.json
+  ckpt_save_path: checkpoints/utk-call/AGMixerV1/
+  ckpt: /mnt/d/chinghsien/Downloads/NTU_Thesis_Code_backup/SmallExp/checkpoints/imdb-call-fp/AGMixerV1/99Epochs_AgeGender_MixerV1_FaRL_64epckpt_loss4.992401_TrainMae3.170_ValMae3.338_CS@5_0.7790_GAcc_0.9967.pt
+testing:
+  seed: 42
+  batch_size: 32
+  dataset: 
+    name: utk
+    data_path: /mnt/d/chinghsien/Downloads/NTU_Thesis_Code_backup/Datasets/UTKface_inthewild/
+    annotation_path: /mnt/d/chinghsien/Documents/NTU/Master_Thesis/AGMixer/annotations/UTKFace_aligned.json
+  ckpt: /mnt/d/chinghsien/Downloads/NTU_Thesis_Code_backup/SmallExp/checkpoints/imdb-call-fp/AGMixerV1/50Epochs_AgeGender_MixerV1_FaRL_64epckpt_loss0.200894_TrainMae0.012_ValMae1.996_CS@5_0.8790_GAcc_0.9982.pt
+fintune:
+  learning_rate: 1e-4
+  lr_farl: 5e-5
+  lr_AGM: 5e-4
+  ckpt: /mnt/d/chinghsien/Downloads/NTU_Thesis_Code_backup/SmallExp/checkpoints/imdb-call-fp/AGMixerV1/4_BS32_50ep_FE_last6_Test_mae_4.348_cs5_66.94_gAcc_99.48/46Epochs_AgeGender_MixerV1_FaRL_64epckpt_loss0.252239_TrainMae0.013_ValMae1.990_CS@5_0.8797_GAcc_0.9980.pt
+
+Training Mixer V1 (Regressor):
+  learning_rate: 1e-4
+  lr_farl: 5e-5
+  lr_AGM: 5e-4
+
+Pretrained IMDB:
+  learning_rate: 1e-3
+  lr_farl: 5e-5
+  lr_AGM: 5e-3
