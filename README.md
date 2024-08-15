@@ -33,7 +33,7 @@ We use the pretrained model from [FaRL](https://github.com/FacePerceiver/FaRL) a
 
 ## Annotations
 
-We provide data annotations for CACD, CLAP2016, and FG-NET with gender labels added based on the[Facial Age Estimation Benchmark](https://github.com/paplhjak/Facial-Age-Estimation-Benchmark). The annotations for the remaining datasets can also be obtained from the same source.
+We provide data annotations for CACD, CLAP2016, and FG-NET with gender labels added based on the [Facial Age Estimation Benchmark](https://github.com/paplhjak/Facial-Age-Estimation-Benchmark). The annotations for the remaining datasets can also be obtained from the same source.
 
 ## Train
 
