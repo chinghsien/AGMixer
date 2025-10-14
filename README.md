@@ -70,7 +70,7 @@ python train.py --fin
 @inproceedings{yen2025agmixer,
   title={AGMixer: Age Estimation Using Gender Feature and Improved Ordinal Loss},
   author={Yen, Ching-Hsien and Ding, Jian-Jiun and Hu, Kai-Lin},
-  booktitle={2025 IEEE International Symposium on Circuits and Systems (ISCAS)}, 
+  booktitle={Proceedings of the IEEE International Symposium on Circuits and Systems (ISCAS)}, 
   year={2025}}
 ```
 
