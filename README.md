@@ -1,4 +1,4 @@
-# [ISCAS 2025] AGMixer: Age Estimation Using Gender Feature and Improved Ordinal Loss
+# AGMixer: Age Estimation Using Gender Feature and Improved Ordinal Loss
 
 ![AGMixer](images/AGMixer.svg)
 
