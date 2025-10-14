@@ -9,7 +9,7 @@ We use the Facial Representation Learning (FaRL) pretrained Vision Transformer (
 CLAP2016, and FG-NET datasets, achieving the lowest Mean Absolute Error (MAE)
 across all datasets.
 
-[TBA]()
+[Paper](xplore.ieee.org/document/11042938)
 
 ## Datasets
 
