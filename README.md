@@ -1,15 +1,15 @@
-# AGMixer: Age Estimation Using Gender Feature and Improved Ordinal Loss
+# [ISCAS 2025] AGMixer: Age Estimation Using Gender Feature and Improved Ordinal Loss
 
 ![AGMixer](images/AGMixer.svg)
 
-## Paper
+## Abstract
 
 Age estimation can be applied practically with different media and devices across diverse fields. Since the aging process exhibits individual variation and men and women age at different rates, most datasets include both age and gender labels. In this thesis, we propose AGMixer, which leverages gender information to reduce age estimation errors.
 We use the Facial Representation Learning (FaRL) pretrained Vision Transformer (ViT) model as a feature extractor and employ a mixer layer for effective feature fusion, achieving lower error rates in age estimation. To utilize gender features and ordinal information in age, we annotated gender labels for CACD2000, CLAP2016, and FG-NET and improved the Ordinal Distance Encoded Regularization (ORDER) loss. We compared our method with others on UTKFace, AFAD, AgeDB, CACD,
 CLAP2016, and FG-NET datasets, achieving the lowest Mean Absolute Error (MAE)
 across all datasets.
 
-[Paper](xplore.ieee.org/document/11042938)
+[Paper](https://ieeexplore.ieee.org/document/11042938)
 
 ## Datasets
 
